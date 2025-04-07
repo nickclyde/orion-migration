@@ -5,6 +5,9 @@
 # Author: David Kasabji
 # Date: 2024-11-06
 
+# Treat umatched globs as empty lists
+setopt nullglob
+
 # Color codes for output formatting
 COL_BLUE='\x1b[34m'
 COL_CYAN='\x1b[36m'
